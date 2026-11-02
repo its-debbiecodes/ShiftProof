@@ -1,0 +1,28 @@
+# Python generated files
+_pycache_/
+*.py[cod]
+*.pyo
+# Virtual environments
+.venv/
+venv/
+env/
+# Environments variables and secrets
+.env
+.env.*
+# Allow example configuration
+!.env.example
+# Pycharm
+.idea/
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+# Generated reports
+reports/*.pdf
+# Local databases and user data
+instance/
+*.db
+*.sqlite3
+# Operating system files
+.DS_Store
+Thumbs.db
