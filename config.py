@@ -8,4 +8,4 @@ class Config:
     APP_ENVIRONMENT = os.getenv("APP_ENV", "development")
     DEBUG= os.getenv("DEBUG", "False").lower() == "true"
     SECRET_KEY = os.getenv("SECRET_KEY")
-    DATABASE_URI = os.getenv("DATABASE_URI", "sqlite:///shiftproof.db")
+    DATABASE_URL = os.getenv("DATABASE_URl", "sqlite:///shiftproof.db")
