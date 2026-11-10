@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <title>{% block title %}ShiftProof{% endblock %}</title>
+ </head>
+ <body>
+    <header>
+        <h1>ShiftProof</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/features">Features</a>
+        </nav>
+    </header>
+        <main>
+            {% block content%}
+            {% endblock %}
+        </main>
+
+           <footer>
+               <P>Every hour worked, Every penny accounted for.</P>
+           </footer>
+
+ </body>
+</html>
