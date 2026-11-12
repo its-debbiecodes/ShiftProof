@@ -2,11 +2,14 @@
 {% extends "base.html" %}
 {% block title %} Features | ShiftProof {% endblock %}
 {% block content %}
-   <h1>What ShiftProof can do.</h1>
+   <h2>What ShiftProof can do.</h2>
    <p>Here are some things our application can help you with.</p>
-   <ul>
-       {%for feature in features %}
-       <li>{{feature}}</li>
-       {% endfor %}
-   </ul>
+<div class="feature-container">
+    {% for feature in features %}
+       <div class="feature-card">
+           <h3>{{ feature }}</h3>
+           <p>Take control of your working hours and earnings.</p>
+       </div>
+    {% endfor %}
+</div>
 {% endblock %}
